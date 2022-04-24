@@ -119,3 +119,4 @@ while True:
         authenticationSet(change)
     else:
         userInput = str(input("Please input either 'lookup', 'create' or 'create password', 'change', or 'quit'"))  # failsafe response
+
