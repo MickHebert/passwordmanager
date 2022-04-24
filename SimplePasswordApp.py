@@ -117,5 +117,5 @@ while True:
     elif userInput == "change" or userInput == "change password":  # allows the user to change their authenticator password
         change = True
         authenticationSet(change)
-    else
+    else:
         userInput = str(input("Please input either 'lookup', 'create' or 'create password', 'change', or 'quit'"))  # failsafe response
